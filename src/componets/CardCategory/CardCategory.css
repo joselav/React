@@ -1,0 +1,45 @@
+.category{
+    width:100%;  
+    height:90vh; 
+    display: grid; 
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+.category .cat {
+    width: 300px ;
+    height: 250px;
+    background-color: #ffdebc;
+    margin: 80px auto;
+    border-radius: 20px;
+}
+
+.category .cat:hover {
+    background-color:#b48d66 ;
+}
+
+.category .cat .cat-img {
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+
+}
+
+.category .cat .cat-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.category .cat .cat-name {
+    width: 150px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+.category .cat .cat-name p {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Aladin', cursive;
+    font-size: 40px;
+}

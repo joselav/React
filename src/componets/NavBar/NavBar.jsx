@@ -5,7 +5,7 @@ import './NavBar.css'
 import '../../assets/fonts.css'
 import CartWidget from '../CartWidget/CartWidget'
 
-
+import {Link} from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -13,9 +13,10 @@ const NavBar = () => {
     <div className="flez">
         <div className='nave'>
             <ul>
-                <li className='lis'><a href="">Inicio</a></li>
-                <li className='lis'><a href="">Sobre Nosotros</a></li>
-                <li className='lis'><a href="">Contacto</a></li>
+              <Link className='lis' to="/">Inicio</Link>
+              <Link className='lis' to="/category/:categoryId">Categorías</Link>
+              <Link className='lis' to="/aboutUs">Sobre Nosotros</Link>
+              <Link className='lis' to="/contact">Contacto</Link>
             </ul> 
         </div>
         <div className="carrito">

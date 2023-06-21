@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className='nave'>
             <ul>
               <Link className='lis' to="/">Inicio</Link>
-              <Link className='lis' to="/category/:categoryId">Categorías</Link>
+              <Link className='lis' to="/category/starwars">Categorías</Link>
               <Link className='lis' to="/aboutUs">Sobre Nosotros</Link>
               <Link className='lis' to="/contact">Contacto</Link>
             </ul> 
